@@ -48,7 +48,7 @@
 
         <div class="bottom-border"></div>
 
-        
+
     </div>
 
     <!-- HERO START -->
@@ -68,24 +68,66 @@
         <div id="subhero">
 
             <h2 id="party-flavor-text">PARTY<br>
-                <span>FLAVORS</span>
+                <span>FAVORS</span>
             </h2>
 
             <img src="./assets/img/homepage/party-flavors-500x100.jpg" id="shaped-samples" alt="party-flavors"
                 class="hero" width="50%">
 
-            </div>
+        </div>
 
 
-            <h3 id="shaped-desc">Customized soap shape for all kind of events!</h3>
-            
+        <h3 id="shaped-desc">Customized soap shape for all kind of events!</h3>
 
-            <ul id="events">
-                <li>• Birthdays • Weddings • Sweet XVI • Religious Ceremonies</li>
-            </ul>
+
+        <ul id="events">
+            <li>• Birthdays • Weddings • Sweet XVI • Religious Ceremonies</li>
+        </ul>
 
     </div>
- 
+
+    <!-- WIKIPEDIA API / FETCH FUNCTION -->
+
+    <main id="functionality">
+
+        <br>
+        <hr id="hor-line">
+        <br>
+        <br>
+
+        <h2 id="learn-ingredients">Learn About Your Ingredients</h2>
+
+        <div class="row logo-form-wiki">
+            <img class="logo-wiki"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/657px-Wikipedia-logo-v2.svg.png"
+                alt="Wikipedia Logo" />
+
+
+
+            <form class="search-form js-search-form">
+                <input id="search-input" placeholder="Enter an ingredient. ex: coconut" type="search"
+                    class="js-search-input" autofocus /><button id="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- EMPTY DIV TO HOLD WIKIPEDIA'S DISPLAY -->
+
+        <div class="loading-indicator">
+            <div class="display-result">
+                <div id="display-container" type="text" class="search-result"></div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- PUSH BOTTOM UP FOR A FULL PAGE DISPLAY -->
+
+    <br>
+    <br>
+
     <div class="push-up-text">
         <div id="collection-title">
             <h3 id="four">FOUR COLLECTIONS</h3>
@@ -93,7 +135,7 @@
     </div>
 
     <!-- STICKY FOOTER START / 4 ICONS FOR THE COLLECTION  / ** NEEDS GREEN BACKGROUND -->
-   
+
     <div class="container-footer">
 
         <footer id="footer">
@@ -116,4 +158,5 @@
     </div>
 
 </body>
+
 </html>
