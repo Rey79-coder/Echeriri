@@ -92,40 +92,25 @@
     margin-bottom: 100px; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
 }
 
-/* TITLE FOOTER */
 
-#collection-title {
-    display: block;
-    padding: 12px;
-    background-color: #7C5723; 
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
+/* about section   /  CHAD SECTION  */ 
 
-#four {
-    color: white;
+.about {
     text-align: center;
 }
 
-/* STICKY FOOTER */
+/*mission statement*/
 
-.container-footer { 
-    display: flex;
-    justify-content: center;
-    padding: 12px;
-    background-color: #89A13A;
-}
-
-
-#footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.mission {
     text-align: center;
-    padding: 12px;
-    background-color: #89A13A;
 }
+
+/*contact */
+
+.contact {
+    text-align: center;
+}
+
 
 
 /* API WIKIPEDIA STYLES */
@@ -189,4 +174,46 @@
       width: 700px;
       height: 300px;
   }
+
+
+
+
+
+/* TITLE FOOTER */
+
+#collection-title {
+    display: block;
+    padding: 12px;
+    background-color: #7C5723; 
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#four {
+    color: white;
+    text-align: center;
+}
+
+/* STICKY FOOTER */
+
+.container-footer { 
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    background-color: #89A13A;
+}
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    background-color: #89A13A;
+}
+
+
+
   
