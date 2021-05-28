@@ -91,6 +91,23 @@
 .push-up-text {
     margin-bottom: 100px; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
 }
+/* about section*/
+
+.about {
+    text-align: center;
+}
+
+/*mission statement*/
+
+.mission {
+    text-align: center;
+}
+
+/*contact */
+
+.contact {
+    text-align: center;
+}
 
 /* TITLE FOOTER */
 
