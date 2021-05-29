@@ -90,33 +90,12 @@
 .push-up-text {
     margin-bottom: 100px; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
 }
-/* about section*/
 
-.about {
-    text-align: center;
-}
+/*Mission Statement   /  CHAD SECTION START */ 
 
-/*mission statement*/
 
 .mission {
-    text-align: center;
-}
-
-/*contact */
-
-.contact {
-    text-align: center;
-}
-
-
-/* ABOUT section   /  CHAD SECTION START */ 
-
-
-
-/* MISSION statement*/
-
-.mission {
-    text-align: center;
+    text-align: left;
     background-color: white;
 }
 
