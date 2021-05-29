@@ -97,14 +97,18 @@
 .mission {
     text-align: left;
     background-color: white;
+
 }
 
 /* CONTACT */
 
 .contact {
     text-align: center;
+    
 }
-
+#soap {
+    float:right;
+}
 /* ABOUT section   /  CHAD SECTION FINISHED */ 
 
 
