@@ -131,11 +131,16 @@
 }
 #mission-info {
     text-align: left;
+    padding-left: 15px;
 }
 /* CONTACT */
 
 .contact {
+    text-align: center;
+}
+#how-to-contact{
     text-align: left;
+    padding-left: 15px;
 }
 #soap {
     float: right;
