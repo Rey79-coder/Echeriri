@@ -95,11 +95,15 @@
 
 
 .mission {
-    text-align: left;
+    text-align: center;
     background-color: white;
 
 }
-
+#mission-info {
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 /* CONTACT */
 
 .contact {
