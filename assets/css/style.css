@@ -19,13 +19,12 @@
 /* STICKY HEADER  */
 
 #header {
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: white;
     display: flex;
     justify-content: center;  
     box-shadow: #7C5723; 
   }
-
 
   .sticky {
     position: fixed;
@@ -36,7 +35,7 @@
 .bottom-border {
     border: solid darkgreen;
     border-style: double;
-    margin-top: 150px;
+    margin-top: 170px;
     border-width: thin medium thick 20px;
 }
 
@@ -109,6 +108,103 @@
     text-align: center;
 }
 
+
+/* ABOUT section   /  CHAD SECTION START */ 
+
+
+
+/* MISSION statement*/
+
+.mission {
+    text-align: center;
+    background-color: white;
+}
+
+/* CONTACT */
+
+.contact {
+    text-align: center;
+}
+
+/* ABOUT section   /  CHAD SECTION FINISHED */ 
+
+
+
+/* API WIKIPEDIA STYLES */
+
+
+#hor-line {
+    height:1px;
+    width: 50%; 
+    margin: auto;
+    border-width:0;
+    color:rgb(161, 160, 160);
+    background-color:gray;
+    display: block;
+    text-align: center;
+}
+
+
+#learn-ingredients {
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+}
+
+.logo-form-wiki {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo-wiki {
+    
+    margin-bottom: 30px;
+    width: 100px;
+    display: flex;
+    padding-right: 20px;
+    
+  }
+  
+  #demo {
+    width: 350px;
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-right: 20px;
+  }
+  
+  #myBtn {
+    background-color: #008CBA;
+    font-size: 17px; 
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+
+  /* DISPLAY AREA WIKI RESULT */
+
+.loading-indicator {
+    display: flex;
+    justify-content: center;
+
+}
+
+  .search-result {
+      background-color: rgb(248, 244, 244);
+      border-radius: 25px;
+      border: 2px solid #7a7a7a;
+      padding: 20px;
+      width: 700px;
+      height: 300px;
+      margin-bottom: 30px;
+  }
+
+
+
 /* TITLE FOOTER */
 
 #collection-title {
@@ -135,11 +231,15 @@
 
 
 #footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-text-align: center;
-padding: 12px;
-background-color: #89A13A;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    background-color: #89A13A;
 }
+
+
+
+  
