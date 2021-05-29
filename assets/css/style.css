@@ -4,6 +4,24 @@
     margin: 0;
 }
 
+
+/*-experimental styling---------*/
+.queen {
+    display: flex;
+}
+
+.blank {
+    flex: 1;
+    background-color: #7C5723;
+}
+
+.king {
+    flex: 4;
+}
+/*------------*/
+
+
+
 /* TITLE ELEMENT */
 #title-page{
     position:fixed;
