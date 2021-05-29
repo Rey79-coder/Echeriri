@@ -4,6 +4,22 @@
     margin: 0;
 }
 
+/*-experimental styling---------*/
+.queen {
+    display: flex;
+}
+
+.blank {
+    flex: 1;
+    background-color: #7C5723;
+}
+
+.king {
+    flex: 4;
+}
+/*------------*/
+
+
 /* TITLE ELEMENT */
 #title-page{
     position:fixed;
@@ -90,6 +106,22 @@
 .push-up-text {
     margin-bottom: 100px; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
 }
+
+/*-----Richie CSS----*/
+
+.elemcont1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingdes {
+    margin-top: auto;  
+    margin-bottom: auto; 
+}
+
+/*-------------------------------------------------------------------------------------------------
 
 
 /* ABOUT section   /  CHAD SECTION START */ 
@@ -186,7 +218,6 @@
       height: 300px;
       margin-bottom: 30px;
   }
-
 
 
 /* TITLE FOOTER */
