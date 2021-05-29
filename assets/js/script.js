@@ -1,3 +1,5 @@
+myStorage = window.localStorage;
+
 // STICKY HEADER / When the user scrolls the page, execute myFunction
 window.onscroll = function() {myHeader()};
 
@@ -59,7 +61,7 @@ var myBtn = document.querySelector("#myBtn");
 var input, ccText, ccLen, i;
 
 input = document.querySelector("#demo");
-console.log(input + "This is user input");
+//console.log(input + "This is user input");
 
 if (input = fruits === true); {
 
@@ -74,17 +76,25 @@ ccText = "The coconut tree (Cocos nucifera) is a member of the palm tree family 
 "contains a large quantity of clear liquid, called coconut water or coconut juice. Mature, ripe coconuts can be used as edible seeds, or processed" +
 "for oil and plant milk from the flesh, charcoal from the hard shell, and coir from the fibrous husk. Dried coconut flesh is called copra,"
 "and the oil and milk derived from it are commonly used in cooking – frying in particular – as well as in soaps and cosmetics.",
-console.log(ccText);
+//console.log(ccText);
 
 ccText = "<p>";
 
 ccLen = input.length;
 
 // HERE WE TELL THEM WHERE WE WANT TO BE DISPLAYED.
-i[3] = document.getElementById("disDes").innerHTML = ccText;
+//i[3] = document.getElementById("disDes").innerHTML = ccText;
 
 };
+/*notepad*/
+var textbox = document.querySelector("#textbox");
+var save = document.querySelector("#save");
 
+save.addEventListener("click", function() {
+  console.log(textbox.value)
+  localStorage.setItem('textvalue', textbox.value)
+});
+textbox.value = localStorage.getItem('textvalue');
 /*giphy search*/
 
 function myFunction() {
