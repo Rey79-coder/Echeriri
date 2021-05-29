@@ -129,7 +129,9 @@
 .mission {
     text-align: center;
 }
-
+#mission-info {
+    text-align: left;
+}
 /* CONTACT */
 
 .contact {
@@ -215,7 +217,9 @@
       height: 300px;
       margin-bottom: 30px;
   }
-
+#responsecontainer {
+    float:right;
+}
 
 /* TITLE FOOTER */
 
