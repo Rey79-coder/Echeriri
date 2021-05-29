@@ -54,7 +54,7 @@ M-F 9am - 5pm
 assets/img/four-collections
 (You can grab these image to build the html).
 
-1. Earth Collection (2 Listings)
+1.  (2 Listings)
 
 Palm Oil
 • Great mosturizer for a healthy skin. 
