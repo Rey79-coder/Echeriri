@@ -4,7 +4,6 @@
     margin: 0;
 }
 
-
 /*-experimental styling---------*/
 .queen {
     display: flex;
@@ -19,7 +18,6 @@
     flex: 4;
 }
 /*------------*/
-
 
 
 /* TITLE ELEMENT */
@@ -37,13 +35,12 @@
 /* STICKY HEADER  */
 
 #header {
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: white;
     display: flex;
     justify-content: center;  
     box-shadow: #7C5723; 
   }
-
 
   .sticky {
     position: fixed;
@@ -54,7 +51,7 @@
 .bottom-border {
     border: solid darkgreen;
     border-style: double;
-    margin-top: 150px;
+    margin-top: 170px;
     border-width: thin medium thick 20px;
 }
 
@@ -110,10 +107,7 @@
     margin-bottom: 100px; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
 }
 
-
 /*-----Richie CSS----*/
-
-
 
 .elemcont1 {
     display: flex;
@@ -127,28 +121,28 @@
     margin-bottom: auto; 
 }
 
-
-
-
 /*-------------------------------------------------------------------------------------------------
 
-/* about section   /  CHAD SECTION  */ 
+
+/* ABOUT section   /  CHAD SECTION START */ 
 
 .about {
     text-align: center;
 }
 
-/*mission statement*/
+/* MISSION statement*/
 
 .mission {
     text-align: center;
 }
 
-/*contact */
+/* CONTACT */
 
 .contact {
     text-align: center;
 }
+
+/* ABOUT section   /  CHAD SECTION FINISHED */ 
 
 
 
@@ -171,6 +165,7 @@
     display: block;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
 }
 
 .logo-form-wiki {
@@ -189,14 +184,23 @@
     
   }
   
-  #search-input {
-    width: 600px;
+  #demo {
+    width: 350px;
     border-radius: 3px;
     padding: 10px;
     border: 1px solid gray;
     font-size: 18px;
+    padding-right: 20px;
   }
   
+  #myBtn {
+    background-color: #008CBA;
+    font-size: 17px; 
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+
   /* DISPLAY AREA WIKI RESULT */
 
 .loading-indicator {
@@ -212,10 +216,8 @@
       padding: 20px;
       width: 700px;
       height: 300px;
+      margin-bottom: 30px;
   }
-
-
-
 
 
 /* TITLE FOOTER */
