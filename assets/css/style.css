@@ -4,6 +4,22 @@
     margin: 0;
 }
 
+/*-experimental styling---------*/
+.queen {
+    display: flex;
+}
+
+.blank {
+    flex: 1;
+    background-color: #7C5723;
+}
+
+.king {
+    flex: 4;
+}
+/*------------*/
+
+
 /* TITLE ELEMENT */
 #title-page{
     position:fixed;
@@ -91,38 +107,38 @@
     margin-bottom: 100px; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
 }
 
-/*Mission Statement   /  CHAD SECTION START */ 
+/*-----Richie CSS----*/
 
+.elemcont1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingdes {
+    margin-top: auto;  
+    margin-bottom: auto; 
+}
+/*-------------------------------------------------------------------------------------------------
+/* ABOUT section   /  CHAD SECTION START */ 
+
+
+/* MISSION statement*/
 
 .mission {
     text-align: center;
-    background-color: white;
+}
 
-}
-#mission-info {
-    text-align: left;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 /* CONTACT */
 
 .contact {
-    text-align: center;
-    
-}
-#customer-info {
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-#how-to-contact {
     text-align: left;
-    padding-left: 50px;
+}
+#soap {
+    float: right;
 }
 
-#soap {
-    float:right;
-}
 /* ABOUT section   /  CHAD SECTION FINISHED */ 
 
 
@@ -201,7 +217,6 @@
   }
 
 
-
 /* TITLE FOOTER */
 
 #collection-title {
@@ -236,7 +251,3 @@
     padding: 12px;
     background-color: #89A13A;
 }
-
-
-
-  

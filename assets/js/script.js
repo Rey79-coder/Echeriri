@@ -29,14 +29,14 @@ function myHeader() {
 var fruits, text, fLen, i;
 
 // FRUITS CONTAINS FOUR FRUITS.
-fruits = ["Coconut", "Orange", "Apple", "Mango"];
+fruits = ["Almond", "Aloe Vera", "Beewax", "Coconut", "Essential", "Grapeseed", "Honey", "Jojoba", "Oatmeal", "Olive", "Vitamin E"];
+console.log(fruits);
 
 // HERE IS THE INDICATOR FOR WHAT ELEMENT WE ARE CREATING IN HTML.
 text = "<ul>";
 
 // THIS INDICATES LENGHT STATING FROM i[0].
 fLen = fruits.length;
-
 
 
 // THIS ITERATES THROUGH PREV ARRAY THE ELEMENT UL FOR EACH FRUIT.
@@ -50,10 +50,82 @@ document.getElementById("display-container").innerHTML = text;
 
 
 
+////////// CAPTURE USER'S INPUT /////////
+
+var input = "";
+var submit = "";
+var myBtn = document.querySelector("#myBtn");
+
+var input, ccText, ccLen, i;
+
+input = document.querySelector("#demo");
+console.log(input + "This is user input");
+
+if (input = fruits === true); {
+
+ccText = "The coconut tree (Cocos nucifera) is a member of the palm tree family (Arecaceae) and the only living species of the genus Cocos. The term" +
+"coconut (or the archaic 'cocoanut') can refer to the whole coconut palm, the seed, or the fruit, which botanically is a drupe, not a nut." + 
+"The name comes from the old Portuguese word coco, meaning 'head' or 'skull', after the three indentations on the coconut shell that resemble" + 
+"facial features. They are ubiquitous in coastal tropical regions and are a cultural icon of the tropics." +
+
+"It is one of the most useful trees in the world and is often referred to as the 'tree of life'. It provides food, fuel, cosmetics," + 
+"folk medicine and building materials, among many other uses. The inner flesh of the mature seed, as well as the coconut milk extracted from it,"
+"form a regular part of the diets of many people in the tropics and subtropics. Coconuts are distinct from other fruits because their endosperm" + 
+"contains a large quantity of clear liquid, called coconut water or coconut juice. Mature, ripe coconuts can be used as edible seeds, or processed" +
+"for oil and plant milk from the flesh, charcoal from the hard shell, and coir from the fibrous husk. Dried coconut flesh is called copra,"
+"and the oil and milk derived from it are commonly used in cooking – frying in particular – as well as in soaps and cosmetics.",
+console.log(ccText);
+
+ccText = "<p>";
+
+ccLen = input.length;
+
+// HERE WE TELL THEM WHERE WE WANT TO BE DISPLAYED.
+i[3] = document.getElementById("disDes").innerHTML = ccText;
+
+};
 
 
-var coconut = "";
 
+
+
+// for (i = 0; i < inLen; i++) {
+//   inText += "<p>" + input[i] + "</p>";
+// }
+
+// // HERE WE TELL THEM WHERE WE WANT TO BE DISPLAYED.
+// document.getElementById("disDes").innerHTML = inText + ccDesc;
+
+
+// var ccDesc, ccText, ccLen, i;
+
+// ccDesc = "The coconut tree (Cocos nucifera) is a member of the palm tree family (Arecaceae) and the only living species of the genus Cocos. The term" +
+// "coconut (or the archaic 'cocoanut') can refer to the whole coconut palm, the seed, or the fruit, which botanically is a drupe, not a nut." + 
+// "The name comes from the old Portuguese word coco, meaning 'head' or 'skull', after the three indentations on the coconut shell that resemble" + 
+// "facial features. They are ubiquitous in coastal tropical regions and are a cultural icon of the tropics." +
+
+// "It is one of the most useful trees in the world and is often referred to as the 'tree of life'. It provides food, fuel, cosmetics," + 
+// "folk medicine and building materials, among many other uses. The inner flesh of the mature seed, as well as the coconut milk extracted from it,"
+// "form a regular part of the diets of many people in the tropics and subtropics. Coconuts are distinct from other fruits because their endosperm" + 
+// "contains a large quantity of clear liquid, called coconut water or coconut juice. Mature, ripe coconuts can be used as edible seeds, or processed" +
+// "for oil and plant milk from the flesh, charcoal from the hard shell, and coir from the fibrous husk. Dried coconut flesh is called copra,"
+// "and the oil and milk derived from it are commonly used in cooking – frying in particular – as well as in soaps and cosmetics.",
+
+// ccText = "<p>"
+
+// ccLen += ccDesc.length;
+
+// document.addEventListener("click", "#myBtn") =
+// // HERE WE TELL THEM WHERE WE WANT TO BE DISPLAYED.
+// document.getElementById("disDes").innerHTML = ccDesc;
+
+// ;
+
+
+
+// document.addEventListener("click", function(){
+//   document.getElementById("demo").innerHTML = "Hello World!";
+// });
 
 
 // var ingredients = [
