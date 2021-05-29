@@ -85,7 +85,36 @@ i[3] = document.getElementById("disDes").innerHTML = ccText;
 
 };
 
+/*giphy search*/
 
+function myFunction() {
+
+  var searchTerm = document.querySelector('#searchTerm').value;
+  fetch(
+    'https://api.giphy.com/v1/gifs/search?q=' +
+      searchTerm +
+      '&api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&limit=1'
+  )
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(response) {
+      console.log('GIPHY RESPONSE', response);
+     
+      var responseContainerEl = document.querySelector('#response-container');
+
+      
+      responseContainerEl.innerHTML = '';
+
+      var gifImg = document.createElement('img');
+      gifImg.setAttribute('src', response.data[0].images.fixed_height.url);
+
+      
+      responseContainerEl.appendChild(gifImg);
+    });
+}
+
+/*end of giphy*/
 
 
 
