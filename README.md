@@ -26,5 +26,7 @@ We will use local storage to save user input for
 their later personal usage.
 
 Richie Tauch / DEVELOPER OF THE FOUR COLLECTIONS AND BULMA IMPLEMENTATION/
+
 Chad Renegar / DEVELOPER OF THE ABOUT, CONTACT, AND JS FUNCIONALITY /
+
 Reyna Ramirez / DEVELOPER OF THE THE HEADER AND FOOTER AS WELL AS MOCKUP/
