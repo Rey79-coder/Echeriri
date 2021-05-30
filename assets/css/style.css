@@ -120,36 +120,47 @@
     margin-top: auto;  
     margin-bottom: auto; 
 }
-<<<<<<< HEAD
-=======
-
-/*-------------------------------------------------------------------------------------------------
-
->>>>>>> 38ce7dc502d42007fd63fd7950c5cc642c95ba24
 
 /*-------------------------------------------------------------------------------------------------
 /* ABOUT section   /  CHAD SECTION START */ 
 
-.about {
-    text-align: center;
-}
 
 /* MISSION statement*/
 
 .mission {
     text-align: center;
 }
-
+#mission-info {
+    text-align: left;
+    padding-left: 15px;
+}
 /* CONTACT */
 
 .contact {
     text-align: center;
 }
+#how-to-contact{
+    text-align: left;
+    padding-left: 15px;
+}
+#soap {
+    float: right;
+}
 
 /* ABOUT section   /  CHAD SECTION FINISHED */ 
 
+/*textbox*/
 
+.saveing {
+    margin-left: 10px;
+}
 
+.textarea {
+    display: flex;
+    background-color: rgb(248, 244, 244);
+      border-radius: 25px;
+      border: 2px solid #7a7a7a;
+}
 /* API WIKIPEDIA STYLES */
 
 
@@ -182,7 +193,7 @@
 .logo-wiki {
     
     margin-bottom: 30px;
-    width: 100px;
+    width: 70px;
     display: flex;
     padding-right: 20px;
     
@@ -222,7 +233,9 @@
       height: 300px;
       margin-bottom: 30px;
   }
-
+#responsecontainer {
+    float:right;
+}
 
 /* TITLE FOOTER */
 
@@ -258,3 +271,15 @@
     padding: 12px;
     background-color: #89A13A;
 }
+
+
+/* CSS RULE FOR AMERICAN TYPEWRITER FONT  */
+
+/* font-family: itc-american-typewriter, serif;
+font-style: normal;
+font-weight: 300; */
+
+/* CSS RULE FOR MINION PRO FONT  */
+/* font-family: minion-pro, serif;
+font-style: normal;
+font-weight: 400; */
