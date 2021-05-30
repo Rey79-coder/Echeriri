@@ -18,8 +18,57 @@ function myHeader() {
 
 ////////////////////////////////////////////
 
+//////// WIKIPEDIA SEARCH Function  //////////
 
 // API WIKIPEDIA / FECTH A LIBRARY
+
+$(document).ready( function() {
+    
+  $('#searchForm').on('submit', function(e) {
+      $('#result').empty();
+      e.preventDefault();
+      var search = $('#searchQuery').val();
+      $.ajax({
+       url:    "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + search + "&prop=info&inprop=url&utf8=&format=json",
+       dataType: "jsonp",
+       success: function(data){
+          if(data.query.searchinfo.totalhits !== 0) {
+              var title = [];
+              var desc = [];
+              for(var i = 0; i < data.continue.sroffset ; i++) {
+                 title.push(data.query.search[i].title);
+                 desc.push(data.query.search[i].snippet);
+                 var wiki = '<div class="column is-full" id="box"><div class="column is-full box-title"><a href="https://en.wikipedia.org/wiki/'+title[i]+'" target = "_blank">'+ title[i] + '</a></div><div class="column is-full box-description">'+ desc[i] +'...</div></div>';
+                 $('#result').append(wiki);
+             }
+          }
+       }
+   });
+  });
+});
+
+//  FUNCTION TO HIDE RETURN BUTTON //
+
+$(document).ready( function() {
+  $('#result').hide();
+  $('#return').hide();
+ $('#submit').click( function() {
+     $('#searchForm').hide();
+     $('#return').fadeIn(1000);
+     $('#result').fadeIn(1000);
+ });
+});
+
+// FUNCTION TO RESET SEARCH FUNCTION //
+
+$(document).ready( function() {
+  $('#return').click( function() {
+      $('#result').hide();
+      $('#searchForm').fadeIn(1000);
+      $('#return').hide();
+  });
+});
+
 
 // CREATE AN ARRAY TO HOLD ALL OF THE NATURAL INGREDIENTS WE HAVE USED.
 // ON CLICK, IT WILL DISPLAY ITS PROPERTIES INSIDE ITS DESIGNATED FIELD.
@@ -28,33 +77,34 @@ function myHeader() {
 // ARRAY 'STRINGS' FOR INGREDIENTS. // THE FOLLOWING CREATES ELEMENT IN HTML.
 
 // THIS VAR IS COMPOSED BY FOUR CONTAINERS.
-var fruits, text, fLen, i;
+// var fruits, text, fLen, i;
 
 // FRUITS CONTAINS FOUR FRUITS.
-fruits = ["Almond", "Aloe Vera", "Beewax", "Coconut", "Essential", "Grapeseed", "Honey", "Jojoba", "Oatmeal", "Olive", "Vitamin E"];
-console.log(fruits);
+// fruits = ["Almond", "Aloe Vera", "Beewax", "Coconut", "Essential", "Grapeseed", "Honey", "Jojoba", "Oatmeal", "Olive", "Vitamin E"];
+// console.log(fruits);
 
-// HERE IS THE INDICATOR FOR WHAT ELEMENT WE ARE CREATING IN HTML.
-text = "<ul>";
+// // HERE IS THE INDICATOR FOR WHAT ELEMENT WE ARE CREATING IN HTML.
+// text = "<ul>";
 
-// THIS INDICATES LENGHT STATING FROM i[0].
-fLen = fruits.length;
-
-
-// THIS ITERATES THROUGH PREV ARRAY THE ELEMENT UL FOR EACH FRUIT.
-for (i = 0; i < fLen; i++) {
-  text += "<li>" + fruits[i] + "</li>";
-}
-text += "</ul>";
-
-// HERE WE TELL THEM WHERE WE WANT TO BE DISPLAYED.
-document.getElementById("display-container").innerHTML = text;
+// // THIS INDICATES LENGHT STATING FROM i[0].
+// fLen = fruits.length;
 
 
-//////////////// CHAD GIPHY SECTION /////
+// // THIS ITERATES THROUGH PREV ARRAY THE ELEMENT UL FOR EACH FRUIT.
+// for (i = 0; i < fLen; i++) {
+//   text += "<li>" + fruits[i] + "</li>";
+// }
+// text += "</ul>";
+
+// // HERE WE TELL THEM WHERE WE WANT TO BE DISPLAYED.
+// document.getElementById("display-container").innerHTML = text;
 
 
-/*notepad*/
+//////////////// CHAD GIPHY SECTION ////////////////
+
+
+/* NOTEPAD */
+
 var textbox = document.querySelector("#textbox");
 var save = document.querySelector("#save");
 
@@ -63,7 +113,8 @@ save.addEventListener("click", function() {
   localStorage.setItem('textvalue', textbox.value)
 });
 textbox.value = localStorage.getItem('textvalue');
-/*giphy search*/
+
+/* GIPHY SEARCH FUNCTION*/
 
 function myFunction() {
 
@@ -91,6 +142,14 @@ function myFunction() {
       responseContainerEl.appendChild(gifImg);
     });
 }
+
+
+
+
+
+
+
+
 
 /*end of giphy*/
 
@@ -153,46 +212,6 @@ function myFunction() {
 
 
 
-
-/*notepad*/
-// var textbox = document.querySelector("#textbox");
-// var save = document.querySelector("#save");
-
-// save.addEventListener("click", function() {
-//   console.log(textbox.value)
-//   localStorage.setItem('textvalue', textbox.value)
-// });
-// textbox.value = localStorage.getItem('textvalue');
-// /*giphy search*/
-
-// function myFunction() {
-
-//   var searchTerm = document.querySelector('#searchTerm').value;
-//   fetch(
-//     'https://api.giphy.com/v1/gifs/search?q=' +
-//       searchTerm +
-//       '&api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&limit=1'
-//   )
-//     .then(function(response) {
-//       return response.json();
-//     })
-//     .then(function(response) {
-//       console.log('GIPHY RESPONSE', response);
-     
-//       var responseContainerEl = document.querySelector('#response-container');
-
-      
-//       responseContainerEl.innerHTML = '';
-
-//       var gifImg = document.createElement('img');
-//       gifImg.setAttribute('src', response.data[0].images.fixed_height.url);
-
-      
-//       responseContainerEl.appendChild(gifImg);
-//     });
-// }
-
-/*end of giphy*/
 
 
 
