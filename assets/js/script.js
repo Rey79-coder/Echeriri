@@ -132,10 +132,13 @@ function myFunction() {
 }
 
 /*end of giphy*/
+<<<<<<< HEAD
 >>>>>>> ed9b5b7b417795e4dba7102c68eecc379e36b7fe
 
 // input = document.querySelector("#demo");
 // //console.log(input + "This is user input");
+=======
+>>>>>>> ed9b5b7b417795e4dba7102c68eecc379e36b7fe
 
 // if (input = fruits === true); {
 
