@@ -4,20 +4,33 @@
     margin: 0;
 }
 
-/*-experimental styling---------*/
 .queen {
     display: flex;
 }
 
+
 .blank {
-    flex: 1;
+    flex: auto;
+    background-color:white;
+}
+
+.king {
+    flex: auto;
+}
+/* -experimental styling---------*/ 
+/* .queen {
+    display: flex;
+}
+
+.blank {
+    flex: auto;
     background-color: #7C5723;
 }
 
 .king {
     flex: 4;
-}
-/*------------*/
+} */
+/*------------
 
 
 /* TITLE ELEMENT */
@@ -50,8 +63,8 @@
 
 .bottom-border {
     border: solid darkgreen;
-    border-style: double;
-    margin-top: 170px;
+    border-style: solid;
+    margin-top: 160px;
     border-width: thin medium thick 20px;
 }
 
@@ -60,7 +73,9 @@
 #hero {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
+
 
 #shipping {
     padding: 15px;
@@ -79,15 +94,16 @@
 
 #subhero {
     width: 100%;
-    display: flex;
     justify-content: center;
     padding: 30px;
 }
 
 #party-flavor-text {
-    text-align: right;
-    padding-right: 30px;
-    font-family: 'Montserrat', sans-serif;
+   display: block;
+   text-align: center;
+   margin-bottom: 5px;
+   font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 }
 
 #shaped-desc {
@@ -104,7 +120,7 @@
 }
 
 .push-up-text {
-    margin-bottom: 100px; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
+    margin-bottom: 120px; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
 }
 
 /*-----Richie CSS----*/
@@ -119,6 +135,16 @@
 .ingdes {
     margin-top: auto;  
     margin-bottom: auto; 
+}
+
+.title, .is-2, .content, .is-large {
+    margin-left: 25px;
+}
+
+.title, .is-1 {
+    font-family: 'itc-american-typewriter', serif;
+    font-style: normal;
+    font-weight: 300;  
 }
 
 /*-------------------------------------------------------------------------------------------------
@@ -139,13 +165,18 @@
 .contact {
     text-align: center;
 }
-#how-to-contact{
+
+#how-to-contact {
     text-align: left;
     padding-left: 15px;
 }
-#soap {
-    float: right;
+
+.button, .is-primary {
+    position: relative;
 }
+/* #soap {
+    float: right;
+} */
 
 /* ABOUT section   /  CHAD SECTION FINISHED */ 
 
@@ -156,9 +187,7 @@
 }
 
 .textarea {
-    display: flex;
     background-color: rgb(248, 244, 244);
-      border-radius: 25px;
       border: 2px solid #7a7a7a;
 }
 /* API WIKIPEDIA STYLES */
@@ -183,54 +212,19 @@
     padding-bottom: 30px;
 }
 
-.logo-form-wiki {
-    display: flex;
-    flex-direction: row;  
-    align-items: center;
-    justify-content: center;
-    
-}
-.logo-wiki {
-    
-    margin-bottom: 30px;
-    width: 70px;
-    display: flex;
-    padding-right: 20px;
-    
-  }
+
   
-  #demo {
-    width: 350px;
-    border-radius: 3px;
-    padding: 10px;
-    border: 1px solid gray;
-    font-size: 18px;
-    padding-right: 20px;
-  }
-  
-  #myBtn {
-    background-color: #008CBA;
-    font-size: 17px; 
-    color: white;
-    border-radius: 4px;
-    padding: 10px 20px;
-  }
 
   /* DISPLAY AREA WIKI RESULT */
 
-.loading-indicator {
-    display: flex;
-    justify-content: center;
-
-}
 
   .search-result {
       background-color: rgb(248, 244, 244);
       border-radius: 25px;
       border: 2px solid #7a7a7a;
       padding: 20px;
-      width: 700px;
-      height: 300px;
+      width: auto;
+      height: auto;
       margin-bottom: 30px;
   }
 #responsecontainer {
@@ -254,13 +248,6 @@
 
 /* STICKY FOOTER */
 
-.container-footer { 
-    display: flex;
-    justify-content: center;
-    padding: 12px;
-    background-color: #89A13A;
-}
-
 
 #footer {
     position: fixed;
@@ -272,11 +259,13 @@
     background-color: #89A13A;
 }
 
+.container-footer { 
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    background-color: #89A13A;
+}
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3fd954a26c71553d0b39081c16d065b072ac17e1
 /* CSS RULE FOR AMERICAN TYPEWRITER FONT  */
 
 /* font-family: itc-american-typewriter, serif;
@@ -286,9 +275,45 @@ font-weight: 300; */
 /* CSS RULE FOR MINION PRO FONT  */
 /* font-family: minion-pro, serif;
 font-style: normal;
-<<<<<<< HEAD
-font-weight: 400; */
-=======
 font-weight: 400; */
 
->>>>>>> 3fd954a26c71553d0b39081c16d065b072ac17e1
+
+/* CSS GENERAL STYLES RULES */
+
+#header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 475px) {
+
+#header {
+ width: 100%;
+}
+
+#footer {
+    width: 100%;
+   }
+}
+
+@media screen and (max-width: 430px) {
+
+    #header {
+        width: 100%;
+       }
+   
+    .collection {
+       width: 19%;
+       }
+
+       #footer {
+           width: 100%;
+          }
+
+          .push-up-text {
+            margin-bottom: 70px;
+            width: auto; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
+        }
+
+       }
