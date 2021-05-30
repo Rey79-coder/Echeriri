@@ -1,4 +1,3 @@
-# Echeriri / Soap Brandawareness
 
 Brandawareness for a future online store.
 This website will offer a natural/organic product for everybody. 
