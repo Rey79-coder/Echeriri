@@ -51,7 +51,9 @@ text += "</ul>";
 document.getElementById("display-container").innerHTML = text;
 
 
+//////////////// CHAD GIPHY SECTION /////
 
+<<<<<<< HEAD
 ////////// CAPTURE USER'S INPUT /////////
 
 <<<<<<< HEAD
@@ -88,11 +90,9 @@ ccText = "The coconut tree (Cocos nucifera) is a member of the palm tree family 
 ccText = "<p>";
 
 ccLen = input.length;
+=======
+>>>>>>> main
 
-// HERE WE TELL THEM WHERE WE WANT TO BE DISPLAYED.
-//i[3] = document.getElementById("disDes").innerHTML = ccText;
-
-};
 /*notepad*/
 var textbox = document.querySelector("#textbox");
 var save = document.querySelector("#save");
@@ -133,7 +133,36 @@ function myFunction() {
 
 /*end of giphy*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed9b5b7b417795e4dba7102c68eecc379e36b7fe
+=======
+
+
+////////// CAPTURE USER'S INPUT /////////
+
+// var input = "";
+// var submit = "";
+// var myBtn = document.querySelector("#myBtn");
+
+// var input, ccText, ccLen, i;
+
+// input = document.querySelector("#demo");
+// //console.log(input + "This is user input");
+
+// if (input = fruits === true); {
+
+// var input = "";
+// var submit = "";
+// var myBtn = document.querySelector("#myBtn");
+
+// var input, ccText, ccLen, i;
+
+// var input = "";
+// var submit = "";
+// var myBtn = document.querySelector("#myBtn");
+
+// var input, ccText, ccLen, i;
+>>>>>>> main
 
 // input = document.querySelector("#demo");
 // //console.log(input + "This is user input");
@@ -159,50 +188,55 @@ function myFunction() {
 
 // ccLen = input.length;
 
-// // HERE WE TELL THEM WHERE WE WANT TO BE DISPLAYED.
-// //i[3] = document.getElementById("disDes").innerHTML = ccText;
+// HERE WE TELL THEM WHERE WE WANT TO BE DISPLAYED.
+//i[3] = document.getElementById("disDes").innerHTML = ccText;
 
 // };
 
 
 
+
+
+
+
+
 /*notepad*/
-var textbox = document.querySelector("#textbox");
-var save = document.querySelector("#save");
+// var textbox = document.querySelector("#textbox");
+// var save = document.querySelector("#save");
 
-save.addEventListener("click", function() {
-  console.log(textbox.value)
-  localStorage.setItem('textvalue', textbox.value)
-});
-textbox.value = localStorage.getItem('textvalue');
-/*giphy search*/
+// save.addEventListener("click", function() {
+//   console.log(textbox.value)
+//   localStorage.setItem('textvalue', textbox.value)
+// });
+// textbox.value = localStorage.getItem('textvalue');
+// /*giphy search*/
 
-function myFunction() {
+// function myFunction() {
 
-  var searchTerm = document.querySelector('#searchTerm').value;
-  fetch(
-    'https://api.giphy.com/v1/gifs/search?q=' +
-      searchTerm +
-      '&api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&limit=1'
-  )
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(response) {
-      console.log('GIPHY RESPONSE', response);
+//   var searchTerm = document.querySelector('#searchTerm').value;
+//   fetch(
+//     'https://api.giphy.com/v1/gifs/search?q=' +
+//       searchTerm +
+//       '&api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&limit=1'
+//   )
+//     .then(function(response) {
+//       return response.json();
+//     })
+//     .then(function(response) {
+//       console.log('GIPHY RESPONSE', response);
      
-      var responseContainerEl = document.querySelector('#response-container');
+//       var responseContainerEl = document.querySelector('#response-container');
 
       
-      responseContainerEl.innerHTML = '';
+//       responseContainerEl.innerHTML = '';
 
-      var gifImg = document.createElement('img');
-      gifImg.setAttribute('src', response.data[0].images.fixed_height.url);
+//       var gifImg = document.createElement('img');
+//       gifImg.setAttribute('src', response.data[0].images.fixed_height.url);
 
       
-      responseContainerEl.appendChild(gifImg);
-    });
-}
+//       responseContainerEl.appendChild(gifImg);
+//     });
+// }
 
 /*end of giphy*/
 
