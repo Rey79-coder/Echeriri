@@ -120,41 +120,40 @@
     margin-top: auto;  
     margin-bottom: auto; 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
-/*-------------------------------------------------------------------------------------------------
 
->>>>>>> 38ce7dc502d42007fd63fd7950c5cc642c95ba24
-=======
-
-/*-------------------------------------------------------------------------------------------------
-
->>>>>>> 737a8d46da7cb7cbb392f243f73bf76350ae186f
-
-/*-------------------------------------------------------------------------------------------------
 /* ABOUT section   /  CHAD SECTION START */ 
 
-.about {
-    text-align: center;
-}
 
 /* MISSION statement*/
 
 .mission {
     text-align: center;
 }
-
+#mission-info {
+    text-align: left;
+    padding-left: 15px;
+}
 /* CONTACT */
 
 .contact {
     text-align: center;
 }
+#how-to-contact{
+    text-align: left;
+    padding-left: 15px;
+}
+#soap {
+    float: right;
+}
 
 /* ABOUT section   /  CHAD SECTION FINISHED */ 
 
+/*textbox*/
 
+.saveing {
+    margin-left: 10px;
+}
 
 /* API WIKIPEDIA STYLES */
 
@@ -228,7 +227,9 @@
       height: 300px;
       margin-bottom: 30px;
   }
-
+#responsecontainer {
+    float:right;
+}
 
 /* TITLE FOOTER */
 
@@ -263,4 +264,4 @@
     text-align: center;
     padding: 12px;
     background-color: #89A13A;
-}
+

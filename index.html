@@ -30,7 +30,7 @@
             <div class="about-icon">
                 <a href="#about" class="ph">
                     <img src="./assets/img/header/we-are-icon-100x100.jpg" alt="company-mission" width="120px"
-                        id="about">
+                        >
                 </a>
             </div>
 
@@ -94,7 +94,7 @@
 
         </div>
 
-<!--Element Collection-------- // RICHIE SECTION START // -------->
+  <!--Element Collection-------- // RICHIE SECTION START // -------->
     <!-- EARTH -------------------------------->
         <div>
             <!--small hero banner---------------->
@@ -293,29 +293,30 @@
 
 
         <!--Mission statment page // CHAD'S SECTION -->
-<div class="mission">
-    <div id="mission statement">
-        <img src="assets/img/contact-us/1920x1280-contact-us-banner.png" alt="blocked soap" class="hero"
-            width="100%"><br>
-        <h2 id="mission-vision-values">Mission/Vision/Values</h2>
-
-        <p>Echeriri has the mission to offer high and natural soap quality. In a natural way, we give the Earth's
-            soul in a piece of soap. Also, our company wants our consumers to enjoy their personal care as an
-            intimate experience with our planet.<br>
-
-            We'll be whenever you are. There is no frontier for our product. All people who wish to try our soap,
-            we'll make it possible. Echeriri is looking for pleasing personal care needs for you and your family.
-            Please allow us to get to your home. Earth hold us when we were born and since then it's still taking
-            care of all of us.<br>
-
-            Echeriri is created with values and responsibilities towards society and environment. Each individual
-            has needs that differ from each other. Therefore, we offer a wide variety of soap to fit your needs.<br>
-
-            Every year we give back to our planet to thank it for their nature. As a result, our team work plants 80
-            trees and each employee dedicates 80 paid hours for the caring of the botanical local garden from cities
-            in need.</p>
-    </div>
-</div>
+        <div class="mission" id="about">
+            <div id="mission statement">
+                <img src="assets/img/contact-us/1920x1280-contact-us-banner.png" alt="blocked soap" class="hero"
+                    width="100%"><br>
+                <h1 class="title is -1">Mission/Vision/Values</h1>
+            <div id="mission-info">
+                <p><b>Echeriri</b> has the mission to offer high and natural soap quality. In a natural way, we give the Earth's
+                    soul in a piece of soap. Also, our company wants our consumers to enjoy their personal care as an
+                    intimate experience with our planet.</p><br>
+    
+                <p>We'll be whenever you are. There is no frontier for our product. All people who wish to try our soap,
+                    we'll make it possible. Echeriri is looking for pleasing personal care needs for you and your family.
+                    Please allow us to get to your home. Earth hold us when we were born and since then it's still taking
+                    care of all of us.</p><br>
+    
+                <p>Echeriri is created with values and responsibilities towards society and environment. Each individual
+                    has needs that differ from each other. Therefore, we offer a wide variety of soap to fit your needs.</p><br>
+    
+                <p>Every year we give back to our planet to thank it for their nature. As a result, our team work plants 80
+                    trees and each employee dedicates 80 paid hours for the caring of the botanical local garden from cities
+                    in need.</p>
+            </div>
+            </div>
+        </div>
 
 
     <!-- WIKIPEDIA API / FETCH FUNCTION -->
@@ -350,30 +351,60 @@
             </div>
         </div>
 
+<!--notepad------>
+        <div class="columns">
+           <div class="column is-half saveing">
+                <h1 class="title isß-6">Save Your Ingredients</h1>
+                <input class="textarea" id="textbox" value="ex: Coconut Vitimin E Oatmeal"></input>
+                <button id="save">Save!</button>
+            </div>
+            <div class="column"> 
+            <input type="text" id="searchTerm" value="Type in your ingredient" />
+            <button onclick="myFunction()">Search!</button>
+            <div id="response-container">
+
+            </div>
+            </div>
+       </div>
+
+          
+        <!--giphy display-->
+
+
 
 
     <!--Contact us section  // // CHAD'S SECTION -->
 
-            <div class="contact">
-            <div id="contact-us">
-                <h2 id="contact-us">Contact Us</h2>
-                <img src="assets/img/contact-us/contact-us-378x463.png" id="contact-us" alt="we are" class="hero" width="25%">
-                <p>Our customers feel confident about asking us for customized products. They contact us to ask us for a specific soap and we make them for you. We are listening and improving for you. Thank you loyal clients.<br>
+    <div class="contact">
+        <div id="contact-us">
+            <img src="assets/img/contact-us/banner-1920x720.png" id="contact-us" alt="soap on a rock" class="hero" width="100%">
+            <h1 class="title is -1">Contact Us</h1>
+           <div id="customer-info">
+            <p>Our customers feel confident about asking us for customized products. They contact us to ask us for a
+                specific soap and we make them for you. We are listening and improving for you. Thank you loyal
+                clients.</p><br>
+                </div>
 
-                    Estimates and orders email us:  
-                    sales@echeriri.com<br>
-                    
-                    Comments and Suggestions email us: 
-                    rosy@echeriri.com
-                    echeriri.soap@gmail.com<br>
-                    
-                    
-                    Customer Service English / Spanish
-                    Phone Number:
-                    (562) 357 1068 
-                    M-F 9am - 5pm</p>
-            </div>
-            </div>
+                <img src="assets/img/contact-us/contact-us-378x463.png" id="soap" alt="we are" class="hero"
+                width="45%">
+        <div id="how-to-contact">
+             <p>Estimates and orders email us:<br>
+                <b>sales@echeriri.com</b></p><br>
+
+            <p>Comments and<br>
+             Suggestions email us:</p><br>
+
+            <p><b>rosy@echeriri.com<br>
+            echeriri.soap@gmail.com</b></p><br>
+
+
+            <p>Customer Service<br> 
+                English / Spanish<br>
+                Phone Number:<br>
+                <b>(562) 357 1068<br>
+                M-F 9am - 5pm</b></p>
+        </div>
+        </div>
       
           <!--Contact us section  // // CHAD'S SECTION FINISHED -->
 
@@ -407,12 +438,18 @@
                   
                     <img src="./assets/img/footer/water-icon.png" alt="water-icon" height="" width=""
                         id="water-collection" class="collection" type="button">
+                </div>
 
             </footer>
         </div>
-      </div>
-    <div class="blank"></div>
     </div>
+
+    </div>
+    <div class="blank"></div>
+
+    </div>
+
+
 
         <script src="./assets/js/script.js"></script>
   
