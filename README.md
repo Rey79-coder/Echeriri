@@ -1,6 +1,6 @@
-# Echeriri / Soap Brandawareness
+# Echeriri / Soap Brand Awareness
 
-Brand Awareness for an online soap store.
+Brand Awareness (phase 1) for an online soap store.
 This website will offer natural bar soap for everybody. 
 
 
