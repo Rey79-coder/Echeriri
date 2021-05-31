@@ -15,22 +15,8 @@
 }
 
 .king {
-    flex: auto;
-}
-/* -experimental styling---------*/ 
-/* .queen {
-    display: flex;
-}
-
-.blank {
-    flex: auto;
-    background-color: #7C5723;
-}
-
-.king {
     flex: 4;
-} */
-/*------------
+}
 
 
 /* TITLE ELEMENT */
@@ -53,6 +39,12 @@
     display: flex;
     justify-content: center;  
     box-shadow: #7C5723; 
+    top: 0;
+    z-index: 1;
+  }
+
+  .scroller {
+    overflow: auto;
   }
 
   .sticky {
@@ -62,9 +54,9 @@
   }
 
 .bottom-border {
-    border: solid darkgreen;
+    border: solid white;
     border-style: solid;
-    margin-top: 160px;
+    margin-top: 175px;
     border-width: thin medium thick 20px;
 }
 
@@ -98,13 +90,13 @@
     padding: 30px;
 }
 
-#party-flavor-text {
+/* #party-flavor-text {
    display: block;
    text-align: center;
    margin-bottom: 5px;
    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-}
+} */
 
 #shaped-desc {
     text-align: center; 
@@ -174,9 +166,10 @@
 .button, .is-primary {
     position: relative;
 }
-/* #soap {
+#soap {
     float: right;
-} */
+
+}
 
 /* ABOUT section   /  CHAD SECTION FINISHED */ 
 
@@ -286,7 +279,11 @@ font-weight: 400; */
 
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 470px) {
+
+.king {
+flex: auto;
+}
 
 #header {
  width: 100%;
@@ -298,6 +295,10 @@ font-weight: 400; */
 }
 
 @media screen and (max-width: 430px) {
+
+    .king {
+        flex: auto;
+        }
 
     #header {
         width: 100%;
