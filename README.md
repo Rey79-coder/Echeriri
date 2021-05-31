@@ -1,7 +1,7 @@
 # Echeriri / Soap Brandawareness
 
-Brandawareness for a future online store.
-This website will offer a natural/organic product for everybody. 
+Brand Awareness for an online soap store.
+This website will offer natural bar soap for everybody. 
 
 
 PROJECT SPECIFICATIONS
@@ -11,10 +11,12 @@ BRAND COLORS: #89A13A, #7C5723
 
 PROPOSAL GOAL
 
-    Develop a brand awareness site for an upcoming soap company Echeriri. The site is meant to display their collection (EARTH, WATER, FIRE, and WIND). To add further functionality to the site, we included a section
-    where users can utilize Wikipedia to research more information about the brand’s origin and name.
+    Develop a brand awareness site for an upcoming soap company Echeriri. The site displays its collection (EARTH, WATER, FIRE, and WIND). 
+    To add functionality to the site, we included a section where users can connect to Wikipedia server to research more information about natural ingredients.
 
-    Users are encouraged to research ingredients and are provided a comment box below to write down collections and ingredients that interest them. To further increase engagement and emotional ties to the brand we are encouraging users to also save a GIF to provide an emotional reminder of their interest in the product.
+    Users are encouraged to save ingredients. A comment box is provided for users to save ingredients that interest them. 
+    
+    Finally, to increase engagement and emotional ties to the brand we are encouraging users to remember with a GIF to provide an emotional reminder of their interest in the product.
 
 APIs We wish to use:
 
@@ -27,6 +29,6 @@ their later personal usage.
 
 Richie Tauch / DEVELOPER OF THE FOUR COLLECTIONS AND BULMA IMPLEMENTATION/
 
-Chad Renegar / DEVELOPER OF THE ABOUT, CONTACT, AND JS FUNCIONALITY /
+Chad Renegar / DEVELOPER OF THE ABOUT, CONTACT, AND JS FUNCTIONALITY /
 
 Reyna Ramirez / DEVELOPER OF THE THE HEADER AND FOOTER AS WELL AS MOCKUP/
