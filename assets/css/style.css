@@ -168,6 +168,7 @@
 }
 #soap {
     float: right;
+    margin-bottom: 30px;
 
 }
 
@@ -313,7 +314,7 @@ flex: auto;
           }
 
           .push-up-text {
-            margin-bottom: 70px;
+            margin-bottom: 90px;
             width: auto; /* SOLUTION TO PUSH BOTTOM AND FOOTER WON'T COVER IT*/
         }
 
