@@ -28,6 +28,8 @@ We will use local storage to save user input for
 their later personal usage.
 
 Richie Tauch / DEVELOPER OF THE FOUR COLLECTIONS AND BULMA IMPLEMENTATION/
+-Richie Tauch assisted Chad Renegar in the implementation of local storage. Wrote the code necesary for the notepad to locally store user input. Chad Modified the hieght and width of the notepad.
+-Richie Tauch developed the powerpoint presentation alongside Reyna
 
 Chad Renegar / DEVELOPER OF THE ABOUT, CONTACT, AND JS FUNCTIONALITY /
 
