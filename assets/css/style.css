@@ -4,18 +4,13 @@
     margin: 0;
 }
 
-.queen {
-    display: flex;
+.king {
+    padding: 0px 0px 0px 0px;
 }
 
 
 .blank {
-    flex: auto;
-    background-color:white;
-}
-
-.king {
-    flex: 4;
+    padding: 0px 0px 0px 0px;
 }
 
 
@@ -25,7 +20,7 @@
     opacity: 0;
 }
 
-.row .sticky {
+.sticky {
     position: sticky;
     display: flex;
     flex-direction: row;  
@@ -179,11 +174,7 @@
 .button, .is-primary {
     position: relative;
 }
-#soap {
-    float: right;
-    margin-bottom: 30px;
 
-}
 
 /* ABOUT section   /  CHAD SECTION FINISHED */ 
 
