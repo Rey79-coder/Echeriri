@@ -123,7 +123,19 @@
     margin-top: auto;  
     margin-bottom: auto; 
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> ed9b5b7b417795e4dba7102c68eecc379e36b7fe
+=======
+>>>>>>> ed9b5b7b417795e4dba7102c68eecc379e36b7fe
+=======
+
+<<<<<<< HEAD
+>>>>>>> main
+=======
 .title, .is-2, .content, .is-large {
     margin-left: 25px;
 }
@@ -134,6 +146,7 @@
     font-weight: 300;  
 }
 
+>>>>>>> develop
 /*-------------------------------------------------------------------------------------------------
 /* ABOUT section   /  CHAD SECTION START */ 
 
@@ -243,6 +256,11 @@
     padding: 12px;
     background-color: #89A13A;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
 
 .container-footer { 
     display: flex;
@@ -261,7 +279,17 @@ font-weight: 300; */
 /* font-family: minion-pro, serif;
 font-style: normal;
 font-weight: 400; */
+<<<<<<< HEAD
+=======
+>>>>>>> ed9b5b7b417795e4dba7102c68eecc379e36b7fe
+=======
+>>>>>>> ed9b5b7b417795e4dba7102c68eecc379e36b7fe
+=======
 
+<<<<<<< HEAD
+>>>>>>> 3fd954a26c71553d0b39081c16d065b072ac17e1
+>>>>>>> main
+=======
 
 /* CSS GENERAL STYLES RULES */
 
@@ -310,3 +338,4 @@ flex: auto;
         }
 
        }
+>>>>>>> develop
