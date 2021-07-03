@@ -9,7 +9,7 @@
     <!-- GOOGLE API FONT LINK -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- BULMA API FONT LINK -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
 
@@ -97,7 +97,7 @@
             </div>
 
             <!--Element Collection-------- // RICHIE SECTION START // -------->
-        
+
             <!-- EARTH -------------------------------->
             <div id="earth-collection">
                 <!--small hero banner---------------->
@@ -345,157 +345,160 @@
             <!-- WIKIPEDIA API / FETCH FUNCTION -->
 
             <div class="scroller">
-            <div class="column is-full page">
-                <div class="column is-full main-title">
-                    <h1 class="title isß-4">Search Your Ingredient</h1>
-                </div>
-            
-                
+                <div class="column is-full page">
+                    <div class="column is-full main-title">
+                        <h1 class="title isß-4">Search Your Ingredient</h1>
+                    </div>
+
+
                     <form id="searchForm" class="column is-full text-center">
                         <div class="display-flex align-items-stretch justify-content-center">
-                            <input class="column is-full" type="text" id="searchQuery" placeholder="Search Your Ingredients">
+                            <input class="column is-full" type="text" id="searchQuery"
+                                placeholder="Search Your Ingredients">
                             <button class="column is-full button is-primary" id="submit">Search</button>
                         </div>
                     </form>
 
 
-                    <div id="return" class="text-center"><button class="column is-full button is-dark" id="submit">Return to search</button></div>
+                    <div id="return" class="text-center"><button class="column is-full button is-dark"
+                            id="submit">Return to search</button></div>
                     <div id="result"></div>
                 </div>
-           
+
                 <br>
-    
+
                 <!--  NOTEPAD ----->
 
-                
-                    <div class="column is-full saveing">
-                        <h1 class="title isß-4">Save Your Ingredient</h1>
 
-                        <input class="column is-full textarea" id="textbox" value="ex: Coconut Vitamin E Oatmeal"></input>
+                <div class="column is-full saveing">
+                    <h1 class="title isß-4">Save Your Ingredient</h1>
 
-                        <button id="save" class="column is-full button is-success">Save</button>
+                    <input class="column is-full textarea" id="textbox" value="ex: Coconut Vitamin E Oatmeal"></input>
+
+                    <button id="save" class="column is-full button is-success">Save</button>
+                </div>
+
+                <br>
+
+                <!-- GIPHY SEARCH -->
+
+                <div class="column is-full">
+
+                    <h1 class="title isß-4">Remember Your Ingredient</h1>
+
+                    <input class="column is-full" type="text" id="searchTerm" placeholder="Remember With A Gif"
+                        value="" />
+                    <button class="column is-full button is-dark" onclick="myFunction()">Remember</button>
+                    <div id="response-container">
+
                     </div>
+                </div>
+            </div>
+
+            <!--giphy display-->
+
+            <br>
+            <br>
+
+            <!--Contact us section  // // CHAD'S SECTION -->
+
+            <div class="contact">
+                <div id="contact-us">
+                    <img src="assets/img/contact-us/1920x1280-contact-us-banner.png" id="contact-us"
+                        alt="soap on a rock" class="hero" width="100%">
 
                     <br>
+                    <br>
 
-                    <!-- GIPHY SEARCH -->
+                    <h1 class="title is -1">Contact Us</h1>
+                    <div id="customer-info">
+                        <p>Our customers feel confident about asking us for customized products. They contact us to
+                            ask us for a
+                            specific soap and we make them for you. We are listening and improving for you. Thank
+                            you loyal
+                            clients.</p><br>
+                    </div>
 
-                    <div class="column is-full">
+                    <img src="assets/img/contact-us/contact-us-378x463.png" id="soap" alt="we are" class="hero"
+                        width="auto">
 
-                        <h1 class="title isß-4">Remember Your Ingredient</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
 
-                        <input class="column is-full" type="text" id="searchTerm" placeholder= "Remember With A Gif" value="" />
-                        <button class="column is-full button is-dark" onclick="myFunction()">Remember</button>
-                        <div id="response-container">
+                    <div id="how-to-contact">
+                        <p>Estimates and orders email us:<br>
+                            <b>sales@echeriri.com</b>
+                        </p><br>
 
-                        </div>
+                        <p>Comments and<br>
+                            Suggestions email us:</p><br>
+
+                        <p><b>rosy@echeriri.com<br>
+                                echeriri.soap@gmail.com</b></p><br>
+
+
+                        <p>Customer Service<br>
+                            English / Spanish<br>
+                            Phone Number: (562) 357 1068 / M-F 9am - 5pm
+
+                            </b>
+                        </p>
                     </div>
                 </div>
 
-                <!--giphy display-->
-                
+                <!--Contact us section  // // CHAD'S SECTION FINISHED -->
+
+                <!-- PUSH BOTTOM UP FOR A FULL PAGE DISPLAY -->
+
+                <br>
+                <br>
+                <br>
+                <br>
                 <br>
                 <br>
 
-                <!--Contact us section  // // CHAD'S SECTION -->
-
-                <div class="contact">
-                    <div id="contact-us">
-                        <img src="assets/img/contact-us/1920x1280-contact-us-banner.png" id="contact-us" alt="soap on a rock"
-                            class="hero" width="100%">
-
-                        <br>
-                        <br>
-
-                        <h1 class="title is -1">Contact Us</h1>
-                        <div id="customer-info">
-                            <p>Our customers feel confident about asking us for customized products. They contact us to
-                                ask us for a
-                                specific soap and we make them for you. We are listening and improving for you. Thank
-                                you loyal
-                                clients.</p><br>
-                        </div>
-
-                        <img src="assets/img/contact-us/contact-us-378x463.png" id="soap" alt="we are" class="hero"
-                            width="auto">
-
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-
-                        <div id="how-to-contact">
-                            <p>Estimates and orders email us:<br>
-                                <b>sales@echeriri.com</b>
-                            </p><br>
-
-                            <p>Comments and<br>
-                                Suggestions email us:</p><br>
-
-                            <p><b>rosy@echeriri.com<br>
-                                    echeriri.soap@gmail.com</b></p><br>
-
-
-                            <p>Customer Service<br>
-                                English / Spanish<br>
-                                Phone Number: (562) 357 1068 / M-F 9am - 5pm
-                            
-                            </b>
-                            </p>
-                        </div>
-                    </div>
-
-                    <!--Contact us section  // // CHAD'S SECTION FINISHED -->
-
-                    <!-- PUSH BOTTOM UP FOR A FULL PAGE DISPLAY -->
-                    
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                    <!-- <div class="push-up-text">
+                <!-- <div class="push-up-text">
                         <div id="collection-title">
                             <h3 id="four">FOUR COLLECTIONS</h3>
                         </div>
                     </div> -->
 
-                    <!-- STICKY FOOTER START / 4 ICONS FOR THE COLLECTION  / ** NEEDS GREEN BACKGROUND -->
+                <!-- STICKY FOOTER START / 4 ICONS FOR THE COLLECTION  / ** NEEDS GREEN BACKGROUND -->
 
-                    <div class="columns container-footer">
+                <div class="columns container-footer">
 
-                        <footer id="footer">
+                    <footer id="footer">
 
-                            <div class="row">
+                        <div class="row">
 
-                                <h3 id="four">FOUR COLLECTIONS</h3>
+                            <h3 id="four">FOUR COLLECTIONS</h3>
 
-                                <a href="#earth-collection" class="ph">
-                                    <img src="./assets/img/footer/earth-icon.png" alt="earth-collection" height=""
+                            <a href="#earth-collection" class="ph">
+                                <img src="./assets/img/footer/earth-icon.png" alt="earth-collection" height=""
                                     width="50px" id="earth-collection" class="collection" type="button">
-                                </a>
+                            </a>
 
-                                <a href="#fire-collection" class="ph">
-                                    <img src="./assets/img/footer/fire-icon.png" alt="fire-collection" height=""
+                            <a href="#fire-collection" class="ph">
+                                <img src="./assets/img/footer/fire-icon.png" alt="fire-collection" height=""
                                     width="50px" id="fire-collection" class="collection" type="button">
-                                </a>
+                            </a>
 
 
-                                <a href="#water-collection" class="ph">
-                                    <img src="./assets/img/footer/water-icon.png" alt="water-icon" height="" 
-                                    width="50x"  id="water-collection" class="collection" type="button">
-                                </a>
+                            <a href="#water-collection" class="ph">
+                                <img src="./assets/img/footer/water-icon.png" alt="water-icon" height="" width="50x"
+                                    id="water-collection" class="collection" type="button">
+                            </a>
 
-                                <a href="#wind-collection" class="ph">
-                                    <img src="./assets/img/footer/wind-icon.png" alt="water-icon" height="" 
-                                    width="50px" id="wind-collection" class="collection" type="button">
-                                </a>
-                            </div>
-                        </footer>
-                    </div>
+                            <a href="#wind-collection" class="ph">
+                                <img src="./assets/img/footer/wind-icon.png" alt="water-icon" height="" width="50px"
+                                    id="wind-collection" class="collection" type="button">
+                            </a>
+                        </div>
+                    </footer>
                 </div>
+            </div>
 
         </div>
         <div class="blank"></div>
