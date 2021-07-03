@@ -159,7 +159,9 @@ function myFunction() {
 
   var searchTerm = document.querySelector('#searchTerm').value;
   fetch(
-    'https://api.giphy.com/v1/gifs/search?q=' + searchTerm +'&rating=g&api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&limit=1'
+    'https://api.giphy.com/v1/gifs/search?q=' +
+      searchTerm +
+      '&api_key=HvaacROi9w5oQCDYHSIk42eiDSIXH3FN&limit=1'
   )
     .then(function(response) {
       return response.json();
@@ -249,5 +251,15 @@ function myFunction() {
 //i[3] = document.getElementById("disDes").innerHTML = ccText;
 
 // };
+
+
+
+
+
+
+
+
+
+
 
 
