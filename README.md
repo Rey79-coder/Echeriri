@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
+
 # Echeriri / Soap Brand Awareness
->>>>>>> develop
+
 
 Brand Awareness for an online soap store.
 This website will offer natural bar soap for everybody. 
