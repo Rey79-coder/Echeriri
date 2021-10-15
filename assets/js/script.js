@@ -1,26 +1,16 @@
 myStorage = window.localStorage;
 
-// STICKY HEADER / When the user scrolls the page, execute myFunction
 window.onscroll = function() {myHeader()};
 
-// Get the header
 var header = document.getElementById("header");
 
-// Get the offset position of the navbar
 var sticky = header.offsetTop;
 
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myHeader() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
 }}
 
-
-////////////////////////////////////////////
-
-//////// WIKIPEDIA SEARCH Function  //////////
-
-// API WIKIPEDIA / FECTH A LIBRARY
 
 $(document).ready( function() {
     
@@ -47,7 +37,6 @@ $(document).ready( function() {
   });
 });
 
-//  FUNCTION TO HIDE RETURN BUTTON //
 
 $(document).ready( function() {
   $('#result').hide();
@@ -59,7 +48,6 @@ $(document).ready( function() {
  });
 });
 
-// FUNCTION TO RESET SEARCH FUNCTION //
 
 $(document).ready( function() {
   $('#return').click( function() {
@@ -70,12 +58,6 @@ $(document).ready( function() {
 });
 
 
-
-//////////////// CHAD GIPHY SECTION ////////////////
-
-
-/* NOTEPAD */
-
 var textbox = document.querySelector("#textbox");
 var save = document.querySelector("#save");
 
@@ -85,8 +67,6 @@ save.addEventListener("click", function() {
 });
 textbox.value = localStorage.getItem('textvalue');
 
-
-/* GIPHY SEARCH FUNCTION*/
 
 function myFunction() {
 
@@ -103,7 +83,6 @@ function myFunction() {
       console.log('GIPHY RESPONSE', response);
      
       var responseContainerEl = document.querySelector('#response-container');
-
       
       responseContainerEl.innerHTML = '';
 
@@ -114,4 +93,3 @@ function myFunction() {
       responseContainerEl.appendChild(gifImg);
     });
 }
-
