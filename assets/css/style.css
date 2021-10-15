@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.queen {
+.main-container {
     display: flex;
 }
 
@@ -14,8 +14,8 @@
     background-color:white;
 }
 
-.king {
-    flex: 4;
+.hero-main {
+    /* flex: 8; */
 }
 
 #title-page{
@@ -218,7 +218,8 @@
     width: 100%;
     text-align: center;
     padding: 12px;
-    background-color: #89A13A;
+    /* background-color: #89A13A; */
+    background-color: #477c23;
 }
 
 .container-footer { 
