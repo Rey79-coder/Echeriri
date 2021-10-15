@@ -31,7 +31,7 @@
 
 
 #header {
-    padding: 15px 0;
+    padding: 5px 0;
     background-color: white;
     display: flex;
     justify-content: center;  
@@ -61,7 +61,7 @@
 #hero {
     display: flex;
     justify-content: center;
-    margin-top: -17px;
+    margin-top: -60px;
 }
 
 
@@ -224,7 +224,7 @@
 .container-footer { 
     display: flex;
     justify-content: center;
-    padding: 12px;
+    padding: 5px;
     background-color: #89A13A;
 }
 
